@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "MQTT Dashboard",
+    "slug": "mqtt-dashboard",
+    "version": "1.0.0",
+    "scheme": "mqttdashboard",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.mqttdashboard"
+    },
+    "android": {
+      "package": "com.yourname.mqttdashboard",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B1220"
+      }
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
