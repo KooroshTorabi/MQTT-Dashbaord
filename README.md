@@ -73,3 +73,14 @@ components/
   devices send JSON, you'll want to parse and pick a field to display.
 - **No topic persistence** — subscribed topics reset when the app restarts;
   add them to `settings-store.ts` if you want them to stick around.
+
+## Tasks to do
+
+- [ ] Add JSON payload parsing and field selection for topic cards.
+- [ ] Persist subscribed topics between app launches.
+- [ ] Add validation and clearer error messages for broker settings.
+- [ ] Support authenticated MQTT connections, including TLS certificates where needed.
+- [ ] Add reconnect status, retry controls, and connection diagnostics.
+- [ ] Add the ability to remove, rename, and organize subscribed topics.
+- [ ] Add tests for the MQTT client and Zustand stores.
+- [ ] Document production deployment and configuration steps.
