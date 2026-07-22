@@ -11,7 +11,7 @@ export type BrokerSettings = {
 
 const DEFAULT_SETTINGS: BrokerSettings = {
   // Public test broker over WebSockets — good for getting connected on day one.
-  url: "ws://test.mosquitto.org:8080/mqtt",
+  url: "ws://test.mosquitto.org:8081/mqtt",
   username: "",
   password: "",
 };
